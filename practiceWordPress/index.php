@@ -2,9 +2,9 @@
     <main>
         <div class="mv">
             <ul class="mv-box">
-                <li><img src="assets/img/mainvisual1.jpg" width="1920" height="1080" alt="mainvisual"></li>
-                <li><img src="assets/img/mainvisual2.jpg" width="1920" height="1280" alt="mainvisual"></li>
-                <li><img src="assets/img/mainvisual3.jpg" width="1920" height="1280" alt="mainvisual"></li>
+                <li><img src="<?php echo get_template_directory_uri() ?>assets/img/mainvisual1.jpg" width="1920" height="1080" alt="mainvisual"></li>
+                <li><img src="<?php echo get_template_directory_uri() ?>assets/img/mainvisual2.jpg" width="1920" height="1280" alt="mainvisual"></li>
+                <li><img src="<?php echo get_template_directory_uri() ?>assets/img/mainvisual3.jpg" width="1920" height="1280" alt="mainvisual"></li>
             </ul>
             <div class="mvtext flex">
                 <p>話して学ぼう！<br>BBB英会話スクール</p>
@@ -34,7 +34,7 @@
             <h2>受験生の声</h2>
             <div class="comment flex">
                 <div class="person flex">
-                    <img src="assets/img/icon-student1.png" alt="大学生" width="240" height="240" loading="lazy">
+                    <img src="<?php echo get_template_directory_uri() ?>assets/img/icon-student1.png" alt="大学生" width="240" height="240" loading="lazy">
                     <p>○○○さん<br>大学生</p>
                 </div>
                 <p class="left">
@@ -45,7 +45,7 @@
 
             <div class="comment flex row-reverse">
                 <div class="person flex">
-                    <img src="assets/img/icon-student2.png" alt="会社員" width="240" height="240" loading="lazy">
+                    <img src="<?php echo get_template_directory_uri() ?>assets/img/icon-student2.png" alt="会社員" width="240" height="240" loading="lazy">
                     <p>○○○さん<br>大学生</p>
                 </div>
                 <p class="right">
@@ -55,7 +55,7 @@
             </div>
             <div class="comment flex ">
                 <div class="person flex">
-                    <img src="assets/img/icon-student3.png" alt="自営業" width="240" height="240" loading="lazy">
+                    <img src="<?php echo get_template_directory_uri() ?>assets/img/icon-student3.png" alt="自営業" width="240" height="240" loading="lazy">
                     <p>○○○さん<br>大学生</p>
                 </div>
                 <p class="left">
