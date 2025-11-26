@@ -2,7 +2,7 @@
     <main>
         <div class="mv">
             <ul class="mv-box">
-                <li><img src="<?php echo get_template_directory_;(); ?>assets/img/mainvisual1.jpg" width="1920" height="1080" alt="mainvisual"></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>assets/img/mainvisual1.jpg" width="1920" height="1080" alt="mainvisual"></li>
                 <li><img src="<?php echo get_template_directory_uri(); ?>assets/img/mainvisual2.jpg" width="1920" height="1280" alt="mainvisual"></li>
                 <li><img src="<?php echo get_template_directory_uri(); ?>assets/img/mainvisual3.jpg" width="1920" height="1280" alt="mainvisual"></li>
             </ul>
