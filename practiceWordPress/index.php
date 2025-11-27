@@ -12,6 +12,8 @@
             </div>
         </div>
 
+        <?php get_template_part('news'); ?>
+
         <div id="reason">
             <h2>BBBが選ばれる理由</h2>
             <div class="reason-inner">
