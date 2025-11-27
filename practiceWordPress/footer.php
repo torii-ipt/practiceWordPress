@@ -37,11 +37,11 @@
         </ul>
         <small>&copy; BBB English School</small>
     </footer>
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/jquery.inview.js"></script>
-    <script src="assets/js/inview.js"></script>
-    <script src="assets/js/hamburger.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.inview.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/inview.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/hamburger.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/smoothscroll.js"></script>
 </body>
 
 </html>
