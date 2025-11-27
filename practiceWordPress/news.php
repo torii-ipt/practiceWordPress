@@ -33,7 +33,7 @@
                 </ul>
 
                 <div class="news-btn">
-                    <a class="button02" href="<?php get_template_part('single'); ?>">一覧はこちら</a>
+                    <a class="button02" href="#">一覧はこちら</a>
                 </div>
             </div>
         </div>
