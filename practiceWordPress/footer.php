@@ -42,6 +42,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/inview.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/hamburger.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/smoothscroll.js"></script>
+    <?php wp_footer(); ?>
 </body>
 
 </html>
