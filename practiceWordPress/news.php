@@ -3,10 +3,10 @@
                 <h2>NEWS</h2>
                 <ul class="news-list">
                     <li class="news-list-items">
-                        <a class="flex" href="#">
+                        <a class="flex" href="<?php the_permalink(); ?>">
                             <div class="time">2024.05.03</div>
                             <div class="news-category">category</div>
-                            <div class="news-title">新人研修会を実施いたしました。</div>
+                            <div class="news-title"><?php the_title(); ?></div>
                         </a>
                     </li>
                     <li class="news-list-items">
@@ -33,7 +33,7 @@
                 </ul>
 
                 <div class="news-btn">
-                    <a class="button02" href="#">一覧はこちら</a>
+                    <a class="button02" href="<?php get_template_part('single'); ?>">一覧はこちら</a>
                 </div>
             </div>
         </div>
