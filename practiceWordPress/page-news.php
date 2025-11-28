@@ -18,7 +18,7 @@
                                 <div class="time"><?php the_date(); ?></div>
                                 <div class="news-category"><?php the_category(); ?></div>
                                 <div class="news-title"><?php the_title(); ?></div>
-                                <?php endwhile; ?>
+                                <?php endwhile; wp_reset_postdata(); ?>
                                 <?php endif; ?>
                             </a>
                         </li>
