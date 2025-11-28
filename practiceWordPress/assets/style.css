@@ -479,7 +479,8 @@ main .mv .mvtext .button01::after {
     transition: 0.3s;
 }
 #news .news-btn .button02:hover {
-    transform: translateY(-3px);
+    transform: translateY(3px);
+    box-shadow: none;
     opacity: 1;
 }
 
