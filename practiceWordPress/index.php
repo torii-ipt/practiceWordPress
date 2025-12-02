@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 <main>
-    <h2>新着情報一覧</h2>
+
             <div class="news-wrap">
                 <div id="news" class="container">
+                    <h2>新着情報一覧</h2>
                     <ul class="news-list">
                         <?php
                         $args = array(
