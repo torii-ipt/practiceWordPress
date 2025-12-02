@@ -12,11 +12,11 @@
                         );
                         $query = new WP_Query( $args );
                         ?>
-                        <?php if (have_posts()): while (have_posts()): the_post(); ?>
+                        <?php if ($query->have_posts()): while (have_posts()): the_post(); ?>
                         <li class="news-list-items">
                             <a class="flex" href="<?php the_permalink(); ?>">
                                 <div class="time"><?php echo get_the_date(); ?></div>
-                                <div class="news-category"><?php echo get_the_category(); ?></div>
+                                <div class="news-category"><?php echo the_category(); ?></div>
                                 <div class="news-title"><?php echo get_the_title(); ?></div>
                             </a>
                         </li>
