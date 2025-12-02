@@ -15,9 +15,9 @@
                         <?php if (have_posts()): while (have_posts()): the_post(); ?>
                         <li class="news-list-items">
                             <a class="flex" href="<?php the_permalink(); ?>">
-                                <div class="time"><?php  get_the_date(); ?></div>
-                                <div class="news-category"><?php  get_the_category(); ?></div>
-                                <div class="news-title"><?php  get_the_title(); ?></div>
+                                <div class="time"><?php echo get_the_date(); ?></div>
+                                <div class="news-category"><?php echo get_the_category(); ?></div>
+                                <div class="news-title"><?php echo get_the_title(); ?></div>
                                 <?php endwhile; wp_reset_postdata(); ?>
                                 <?php endif; ?>
                             </a>
