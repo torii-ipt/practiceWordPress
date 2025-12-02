@@ -18,10 +18,11 @@
                                 <div class="time"><?php echo get_the_date(); ?></div>
                                 <div class="news-category"><?php echo get_the_category(); ?></div>
                                 <div class="news-title"><?php echo get_the_title(); ?></div>
-                                <?php endwhile; wp_reset_postdata(); ?>
-                                <?php endif; ?>
                             </a>
                         </li>
+                        <?php endwhile; wp_reset_postdata(); ?>
+                        <?php endif; ?>
+
                     </ul>
                     <div class="news-btn">
                         <a class="button02" href="<?= get_site_url(); ?>/news">一覧はこちら</a>
