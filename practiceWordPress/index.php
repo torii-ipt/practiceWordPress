@@ -22,6 +22,9 @@
                             </a>
                         </li>
                     </ul>
+                    <div class="news-btn">
+                        <a class="button02" href="<?= get_site_url(); ?>/news">一覧はこちら</a>
+                    </div>
                 </div>
             </div>
 </main>
