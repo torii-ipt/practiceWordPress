@@ -20,7 +20,7 @@
 
 <body>
     <header id="header" class="flex">
-        <h1 class="headerlogo"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-r.svg" alt="BBB英会話スクール"></a></h1>
+        <h1 class="headerlogo"><a href="<?php echo esc_url(home_url("/")); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-r.svg" alt="BBB英会話スクール"></a></h1>
         <nav id="gnav" class="flex">
             <ul class="menu flex">
                 <li class="menu-items"><a href="#reason">BBBが選ばれる理由</a></li>
