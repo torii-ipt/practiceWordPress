@@ -5,10 +5,9 @@
 ?>
 <?php get_header(); ?>
 <main>
-	
-	<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
         <div class="post">
+            <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
                 <p><?php the_date(); ?></p>
                 <p><?php the_category(" / "); ?></p>
