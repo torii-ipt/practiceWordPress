@@ -12,7 +12,7 @@
                         );
                         $query = new WP_Query( $args );
                         ?>
-                        <?php if ($query->have_posts()): while (have_posts()): the_post(); ?>
+                        <?php if ($query->have_posts()): while ($query->have_posts()): $query->the_post(); ?>
                         <li class="news-list-items">
                             <a class="flex" href="<?php the_permalink(); ?>">
                                 <div class="time"><?php echo get_the_date(); ?></div>
