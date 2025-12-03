@@ -11,7 +11,7 @@
             <?php while (have_posts()) : the_post(); ?>
                 <p><?php the_date(); ?></p>
                 <p><?php the_category(" / "); ?></p>
-                <h2><?php the_title(); ?></h2>
+                <h3><?php the_title(); ?></h3>
                 <?php the_content(); ?>
             <?php endwhile; ?>
             <?php endif; ?>
