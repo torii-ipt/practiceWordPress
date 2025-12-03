@@ -13,7 +13,14 @@
                         <li class="news-list-items">
                             <a class="flex" href="<?php the_permalink(); ?>">
                                 <div class="time"><?php echo get_the_date(); ?></div>
-                                <div class="news-category"><?php echo the_category(); ?></div>
+                                <div class="news-category">
+                                <?php
+                                    $categories = get_the_category();
+                                    if (!empty($categories)) {
+                                        echo esc_html($categories[0]->name);
+                                    }
+                                ?>
+                                </div>
                                 <div class="news-title"><?php echo get_the_title(); ?></div>
                             </a>
                         </li>
