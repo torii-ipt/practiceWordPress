@@ -27,7 +27,6 @@
 
 <style>
     .news-list-items .flex .news-category{
-    width: 20.2vw;
     text-align: center;
     font-weight: bold;
     margin: 0 20px;
@@ -50,4 +49,11 @@
     margin: 20px;
     transition: 0.3s;
 }
+
+@media screen and (max-width:768px) {
+    .news-list-items .flex .news-category{
+            width: 20.2vw;
+    }
+
+}    
 </style>
