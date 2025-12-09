@@ -19,7 +19,7 @@
                                 <div class="news-category">
                                 <?php
                                     $categories = get_the_category();
-                                    if (!empty($categories)) {
+                                    if ($query->!empty($categories)) {
                                         echo esc_html($categories[0]->name);
                                     }
                                 ?>
