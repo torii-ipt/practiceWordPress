@@ -27,7 +27,7 @@
 
 <style>
     .news-list-items .flex .news-category{
-    width: 5rem;
+    width: 20.2vw;
     text-align: center;
     font-weight: bold;
     margin: 0 20px;
