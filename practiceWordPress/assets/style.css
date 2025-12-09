@@ -534,7 +534,7 @@ main .mv .mvtext .button01::after {
 }
 
 @media screen and (max-width:768px) {
-    .news-list-items .flex .news-category{
+    .news-category{
         width: 20.2vw;
     }
 }
