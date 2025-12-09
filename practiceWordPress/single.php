@@ -19,7 +19,7 @@
             <?php endif; ?>
         </div>
         <div class="news-btn">
-            <a class="button02" href="<?= get_site_url(); ?>/news">一覧はこちら</a>
+            <a class="button02" href="<?= get_site_url(); ?>/news>">一覧はこちら</a>
         </div>
 
 </main>
@@ -27,33 +27,32 @@
 
 <style>
     .news-list-items .flex .news-category{
-    text-align: center;
-    font-weight: bold;
-    margin: 0 20px;
-    padding:  0 4px;
-    color: #FFF;
-    background-color: #ff2a2a;
-}
-
-.news-btn .button02{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    color: #fff;
-    background-color: #ff2a2a;
-    box-shadow: 0px 3px 1px 0px #3b3b3b;
-    border-radius: 10px;
-    width: min(11vw,180px);
-    height: 40px;
-    font-size: clamp(16px, 1.42vw, 20px);
-    margin: 20px;
-    transition: 0.3s;
-}
-
-@media screen and (max-width:768px) {
-    .news-list-items .flex .news-category{
-            width: 20.2vw;
+        text-align: center;
+        font-weight: bold;
+        margin: 0 20px;
+        padding:  0 4px;
+        color: #FFF;
+        background-color: #ff2a2a;
     }
 
-}    
+    .news-btn .button02{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        color: #fff;
+        background-color: #ff2a2a;
+        box-shadow: 0px 3px 1px 0px #3b3b3b;
+        border-radius: 10px;
+        width: min(11vw,180px);
+        height: 40px;
+        font-size: clamp(16px, 1.42vw, 20px);
+        margin: 20px;
+        transition: 0.3s;
+    }
+
+    @media screen and (max-width:768px) {
+        .news-list-items .flex .news-category{
+            width: 20.2vw;
+        }
+    }    
 </style>
