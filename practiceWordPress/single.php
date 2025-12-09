@@ -9,10 +9,17 @@
         <div class="post">
             <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
-                <p><?php the_date(); ?></p>
-                <p><?php the_category(" / "); ?></p>
-                <h3><?php the_title(); ?></h3>
-                <?php the_content(); ?>
+            <div class="time"><?php echo get_the_date(); ?></div>
+                                <div class="news-category">
+                                <?php
+                                    $categories = get_the_category();
+                                    if (!empty($categories)) {
+                                        echo esc_html($categories[0]->name);
+                                    }
+                                ?>
+                                </div>
+                                <div class="news-title"><?php echo get_the_title(); ?></div> 
+                                <div class="news-content"><?php the_content(); ?></div>
             <?php endwhile; ?>
             <?php endif; ?>
         </div>
