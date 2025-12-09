@@ -1,7 +1,7 @@
         <div class="news-wrap">
             <div id="news" class="container">
                 <h2>NEWS</h2>
-                                    <ul class="news-list">
+                    <ul class="news-list">
                         <?php
                         $args = array(
                         'post_type' => 'post',
