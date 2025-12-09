@@ -460,7 +460,15 @@ main .mv .mvtext .button01::after {
     color: #FFF;
     background-color: #ff2a2a;
 }
-
+.news-list-items .flex .news-category{
+    width: 5rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 20px;
+    padding:  0 4px;
+    color: #FFF;
+    background-color: #ff2a2a;
+}
 #news .news-btn{
     display: flex;
     justify-content: right;
