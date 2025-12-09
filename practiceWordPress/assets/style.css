@@ -452,7 +452,7 @@ main .mv .mvtext .button01::after {
 }
 
 #news .news-list .news-list-items .flex .news-category{
-    width: 4rem;
+    width: 5rem;
     text-align: center;
     font-weight: bold;
     margin: 0 20px;
