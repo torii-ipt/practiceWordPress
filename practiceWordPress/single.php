@@ -4,17 +4,17 @@
         <section class="post-container container">
             <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
-            <div class="time"><?php echo get_the_date(); ?></div>
-                            <div class="post-category">
-                            <?php
-                                $categories = get_the_category();
-                                if (!empty($categories)) {
-                                    echo esc_html($categories[0]->name);
-                                }
-                            ?>
-                            </div>
-                            <div class="post-title"><?php echo get_the_title(); ?></div> 
-                            <div class="post-content"><?php the_content(); ?></div>
+            <div class="post-time"><?php echo get_the_date(); ?></div>
+            <div class="post-category">
+            <?php
+                $categories = get_the_category();
+                if (!empty($categories)) {
+                echo esc_html($categories[0]->name);
+            }
+            ?>
+            </div>
+            <div class="post-title"><?php echo get_the_title(); ?></div> 
+            <div class="post-content"><?php the_content(); ?></div>
             <?php endwhile; ?>
             <?php endif; ?>
         </section>

@@ -540,8 +540,7 @@ main .mv .mvtext .button01::after {
 }
 
 /* 投稿ページ */
-.post-container  .post-category{
-    display: inline-block;
+.post-container .post-category{
     background-color: #ff2a2a;
     color: #fff;
     padding: 4px 8px;
@@ -549,7 +548,7 @@ main .mv .mvtext .button01::after {
     margin-bottom: 20px;
 }
 
-.post-container time{
+.post-container .post-time{
     display: block;
     margin-bottom: 20px;
     color: #666;
