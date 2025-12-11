@@ -40,6 +40,26 @@
         margin: 20px;
         transition: 0.3s;
     }
+.post-container .post-category{
+    background-color: #ff2a2a;
+    color: #fff;
+    padding: 4px 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.post-container .post-time{
+    display: block;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 0.875rem;
+}
+
+.post-container h2{
+    font-size: clamp(24px, 2.5vw, 32px);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
     @media screen and (max-width:768px) {
         .post-category{
