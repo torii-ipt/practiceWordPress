@@ -13,7 +13,7 @@
             }
             ?>
             </div>
-            <div class="post-title"><?php echo get_the_title(); ?></div> 
+            <h2 class="post-title"><?php echo get_the_title(); ?></h2> 
             <div class="post-content"><?php the_content(); ?></div>
             <?php endwhile; ?>
             <?php endif; ?>
@@ -42,7 +42,7 @@
     }
 
     @media screen and (max-width:768px) {
-        .news-list-items .flex .news-category{
+        .post-category{
             width: 20.2vw;
         }
     }    
