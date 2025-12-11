@@ -538,6 +538,31 @@ main .mv .mvtext .button01::after {
         width: 20.2vw;
     }
 }
+
+/* 投稿ページ */
+.post-container  .post-category{
+    display: inline-block;
+    background-color: #ff2a2a;
+    color: #fff;
+    padding: 4px 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.post-container time{
+    display: block;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 0.875rem;
+}
+
+.post-container .post-title{
+    font-size: clamp(24px, 2.5vw, 32px);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
 /* 選ばれる理由 */
 #reason {
     margin-bottom: var(--category-mg-btm);
