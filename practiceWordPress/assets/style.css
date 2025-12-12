@@ -535,7 +535,7 @@ main .mv .mvtext .button01::after {
 
 @media screen and (max-width:768px) {
     .news-category{
-        width: 20.2vw;
+        width: 22.2vw;
     }
 }
 
@@ -565,7 +565,7 @@ main .mv .mvtext .button01::after {
     opacity: 1;
 }
 .post-container .post-category{
-    background-color: #ff2a2a;
+    background-color: #f85d5d;
     color: #fff;
     width: 5rem;
     text-align: center;
@@ -589,7 +589,7 @@ main .mv .mvtext .button01::after {
 
 @media screen and (max-width:768px) {
     .post-container .post-category{
-        width: 20.2vw;
+        width: 22.2vw;
     }
 
     .news-btn.post-btn .button02{
