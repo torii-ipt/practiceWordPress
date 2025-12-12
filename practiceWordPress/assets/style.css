@@ -452,6 +452,8 @@ main .mv .mvtext .button01::after {
 }
 
 #news .news-list .news-list-items .flex .news-category{
+    width: 5rem;
+    text-align: center;
     font-weight: bold;
     margin: 0 20px;
     padding:  0 4px;
@@ -528,8 +530,14 @@ main .mv .mvtext .button01::after {
         height: 10.6vw;
         margin: 2vw 0 0 0 ;
     }
+    
 }
 
+@media screen and (max-width:768px) {
+    .news-category{
+        width: 20.2vw;
+    }
+}
 /* 選ばれる理由 */
 #reason {
     margin-bottom: var(--category-mg-btm);

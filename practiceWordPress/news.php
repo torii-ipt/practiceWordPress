@@ -1,7 +1,7 @@
         <div class="news-wrap">
             <div id="news" class="container">
                 <h2>NEWS</h2>
-                                    <ul class="news-list">
+                    <ul class="news-list">
                         <?php
                         $args = array(
                         'post_type' => 'post',
@@ -30,7 +30,7 @@
                     </ul>
 
                 <div class="news-btn">
-                    <a class="button02" href="<?= get_site_url(); ?>/news">一覧はこちら</a>
+                    <a class="button02" href="<?= get_site_url(); ?>/news>">一覧はこちら</a>
                 </div>
             </div>
         </div>
