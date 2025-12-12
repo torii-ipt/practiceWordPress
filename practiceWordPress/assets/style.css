@@ -592,7 +592,7 @@ main .mv .mvtext .button01::after {
         width: 20.2vw;
     }
 
-    .news-btn .button02{
+    .news-btn.post-btn .button02{
         font-size: 4.2666vw;
         width: 30vw;
         height: 10.6vw;
