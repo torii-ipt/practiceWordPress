@@ -535,9 +535,72 @@ main .mv .mvtext .button01::after {
 
 @media screen and (max-width:768px) {
     .news-category{
-        width: 20.2vw;
+        width: 22.2vw;
     }
 }
+
+/* 投稿ページ */
+.news-btn.post-btn{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.news-btn.post-btn .button02{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    background-color: #ff2a2a;
+    box-shadow: 0px 3px 1px 0px #3b3b3b;
+    border-radius: 10px;
+    width: min(11vw,180px);
+    height: 40px;
+    font-size: clamp(16px, 1.42vw, 20px);
+    margin: 20px;
+    transition: 0.3s;
+    }
+.news-btn .button02:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+    opacity: 1;
+}
+.post-container .post-category{
+    background-color: #ff2a2a;
+    color: #fff;
+    width: 5rem;
+    text-align: center;
+    padding: 4px 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.post-container .post-time{
+    display: block;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: min(3.7vw,16px);
+}
+
+.post-container h2{
+    font-size: clamp(24px, 2.5vw, 32px);
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .post-container .post-category{
+        width: 22.2vw;
+    }
+
+    .news-btn.post-btn .button02{
+        font-size: 4.2666vw;
+        width: 30vw;
+        height: 10.6vw;
+        margin: 2vw 0 0 0 ;
+    }
+}    
+
+
 /* 選ばれる理由 */
 #reason {
     margin-bottom: var(--category-mg-btm);
