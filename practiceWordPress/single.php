@@ -18,7 +18,7 @@
             <?php endwhile; ?>
             <?php endif; ?>
         </section>
-        <div class="news-btn">
+        <div class="news-btn post-btn">
             <a class="button02" href="<?= get_site_url(); ?>/news">一覧はこちら</a>
         </div>
 

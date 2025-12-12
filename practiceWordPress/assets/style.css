@@ -540,7 +540,12 @@ main .mv .mvtext .button01::after {
 }
 
 /* 投稿ページ */
-    .news-btn .button02{
+.news-btn.post-btn{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+    .news-btn.post-btn .button02{
         display: flex;
         justify-content:center;
         align-items: center;
@@ -562,6 +567,8 @@ main .mv .mvtext .button01::after {
 .post-container .post-category{
     background-color: #ff2a2a;
     color: #fff;
+    width: 5rem;
+    text-align: center;
     padding: 4px 8px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -571,17 +578,17 @@ main .mv .mvtext .button01::after {
     display: block;
     margin-bottom: 20px;
     color: #666;
-    font-size: 0.875rem;
+    font-size: min(3.7vw,16px);
 }
 
 .post-container h2{
     font-size: clamp(24px, 2.5vw, 32px);
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
     @media screen and (max-width:768px) {
-        .post-category{
+        .post-container .post-category{
             width: 20.2vw;
         }
     }    
