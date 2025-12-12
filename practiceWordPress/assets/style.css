@@ -587,19 +587,18 @@ main .mv .mvtext .button01::after {
     margin-bottom: 40px;
 }
 
-    @media screen and (max-width:768px) {
-        .post-container .post-category{
-            width: 20.2vw;
-        }
-        
-        .news-btn .button02{
+@media screen and (max-width:768px) {
+    .post-container .post-category{
+        width: 20.2vw;
+    }
+
+    .news-btn .button02{
         font-size: 4.2666vw;
         width: 30vw;
         height: 10.6vw;
         margin: 2vw 0 0 0 ;
     }
-
-    }    
+}    
 
 
 /* 選ばれる理由 */
